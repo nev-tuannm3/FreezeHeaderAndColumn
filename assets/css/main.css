@@ -1,0 +1,145 @@
+/* line 1, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics {
+  border: none;
+  min-width: 1330px !important;
+}
+/* line 3, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .editable-clear-x {
+  display: none!important;
+}
+/* line 6, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .form-group {
+  margin-bottom: 0;
+}
+/* line 9, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .input-sm {
+  
+}
+/* line 12, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .date {
+  position: relative;
+}
+/* line 14, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .date input {
+  width: 85px;
+}
+/* line 17, ../../../../google-drive/myproject/logistics/logistics.scss */
+#logistics .date .add-on {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  background: url(../img/calendar.png) no-repeat center center;
+}
+
+/* line 26, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .header {
+  margin-bottom: 0;
+	table-layout: fixed;
+}
+/* line 31, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet tr:first-child td {
+  border-top: none;
+}
+/* line 36, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet th {
+  font-size: 11px;
+  vertical-align: middle!important;
+  text-align: center;
+  border-bottom: none!important;
+	
+}
+#logistics .left{
+	margin-right: -1px;
+}
+#logistics .right .table>thead>tr>th{
+	border-right: 1px solid #fff!important;	
+}
+#logistics .right .table>thead>tr>th:last-child{
+	border-right: 1px solid #ddd!important;	
+}
+#logistics .right .table>thead>tr>th:first-child{
+	border-left:none!important;	
+}
+#logistics .right .table>tbody>tr>td:first-child{
+	border-left:none!important;	
+}
+#logistics .right .table>tbody>tr>td:last-child{
+	border-right:2px solid #ddd!important;
+}
+
+/* line 42, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet td {
+  font-size: 12px;
+  vertical-align: middle!important;
+	min-width: 60px;
+}
+/* line 46, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .left {
+  padding-right: 0;
+}
+/* line 48, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .left th {
+  background-color: #2d6ca2 ;
+  color: #fff;  
+}
+/* line 53, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .right {
+  padding-left: 0;
+}
+/* line 55, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .right th {
+  background-color: #eadaad;  
+}
+/* line 56, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet .right .table-container {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+}
+/* line 64, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet.fixed-header .right,
+.data-sheet.fixed-header .left {
+  position: relative;
+}
+/* line 67, ../../../../google-drive/myproject/logistics/logistics.scss */
+.data-sheet.fixed-header .header {
+  position: absolute;
+  margin-top: -1px; 
+}
+
+#logistics .table>thead>tr>th, 
+#logistics .table>tbody>tr>th, 
+#logistics .table>tfoot>tr>th, 
+#logistics .table>thead>tr>td, 
+#logistics .table>tbody>tr>td, 
+#logistics .table>tfoot>tr>td {
+	border: 1px solid #ddd;
+	position: relative; 	
+}
+
+#logistics .table>thead>tr>th { 	
+	z-index: 10;	 
+}
+#logistics .right .table>thead>tr>th {
+	border: 1px solid #fff;
+}
+#logistics .right .table>thead>tr>th:first-child, 
+#logistics .right .table>tbody>tr>td:first-child {
+	border-left: 0; 
+}
+
+#logistics .editable-container.editable-inline {
+	position: absolute;
+    top: 0;
+    left: 0;
+	display: block;
+    width: 100%;
+}
+#logistics .editable-input, #logistics .editable-container.editable-inline input {
+	width: 100%;
+	height: 34px;  
+	border-radius: 0; 
+}
+#logistics .editable-container.editable-inline input {
+	padding-left: 10px; 
+}
